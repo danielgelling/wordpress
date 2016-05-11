@@ -1,0 +1,19 @@
+{
+    "name": "danielgelling/wordpress",
+    "description": "Wordpress facade",
+    "authors": [
+        {
+            "name": "Daniel Gelling",
+            "email": "info@danielgelling.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "DanielGelling\\": "src/"
+        }
+    }
+}
