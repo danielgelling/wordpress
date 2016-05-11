@@ -1,6 +1,6 @@
 <?php
 
-namespace Wordpress;
+namespace DanielGelling\Wordpress;
 
 use Illuminate\Support\ServiceProvider;
 

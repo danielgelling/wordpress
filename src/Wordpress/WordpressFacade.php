@@ -1,10 +1,10 @@
 <?php
 
-namespace Wordpress;
+namespace DanielGelling\Wordpress;
 
 use Illuminate\Support\Facades\Facade;
 
 class WordpressFacade extends Facade
 {
-    public function getFacadeAccessor() { return 'wordpress'; }
+    protected static function getFacadeAccessor() { return 'wordpress'; }
 }
